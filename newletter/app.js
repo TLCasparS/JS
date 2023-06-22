@@ -4,8 +4,8 @@ const request = require("request");
 const https = require("https");
 const mailchimp = require('@mailchimp/mailchimp_marketing');
 
-const API = "59b306feb73938bc93a9fe5cca63b376-us9";
-const listId = "129bd64f0a";
+const API = "";
+const listId ="" ;
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
