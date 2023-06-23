@@ -8,15 +8,16 @@
 </head>
 <body>
     <div class ="box" id = "heading">
-    
+        <h1><%= listTitle %></h1>
         <h1> Today is <%= day %> </h1>
+        
     </div>
 
     <div class ="box" id = "item">
     
     <form action="/" method="post">
         <input class = "item" type="text" name="do" id="" placeholder="What to do next?">
-        <button type="submit" name="go">Add</button>
+        <button type="submit" name="list" value=<%= listTitle %>>Add</button>
     </form>
 
     </div>
